@@ -1,0 +1,440 @@
+html {
+  scroll-behavior: smooth;
+}
+#first {
+    padding: 50px 0px;
+}
+.banner {
+    margin-right: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f3ede5;
+    box-sizing: border-box;
+    background-color: #fdf9f4;
+    padding: 40px 50px;
+}
+.banner img {
+    max-width: 250px;
+    max-height: 70px;
+    display: block;
+}
+.bannerTwo__red-row {
+    background-color: #cf381e;
+    width: 90px;
+    height: 5px;
+    margin-right: 5px;
+    margin-top: 66px;
+    margin-bottom: 47px;
+}
+
+.headerHeading {
+	margin-bottom: 29px;
+	font-weight: 700;
+	font-size: 27px;
+}
+.groupimg img {
+    width: 100%;
+}
+.col-lg-8.groupimg {
+    padding: 0px 6px;
+}
+.menu__nav {
+    padding-bottom: 26px;
+    margin: 0;
+}
+.menu__nav li {
+    display: inline;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 45px;
+    line-height: 0;
+    font-weight: 600;
+    list-style: none;
+}
+.menu__nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+.menu__nav li a .nav_input {
+    width: 11%;
+    text-align: center;
+}
+#second {
+    background-color: #fff;
+    padding-bottom: 0;
+    padding-top: 15px;
+    padding-top: 35px;
+    -webkit-box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+    -moz-box-shadow: 0 5px 5px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 5px rgb(0 0 0 / 5%);
+    margin-bottom: 5px;
+     position: sticky;
+    top: 0;
+    z-index: 4;
+}
+#third {
+    padding: 50px 0%;
+}
+.aboutHeadingText {
+    padding: 45px 50px 50px 10px;
+    font-size: 30px;
+    width: 264px;
+    border-right: 2px solid #f1f1f1;
+    word-wrap: break-word;
+}
+.aboutSubHeading {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    line-height: 1.5;
+}
+.moretext {
+    display: none;
+    margin-top: 35px;
+}
+a.moreless-button {
+    font-size: 16px;
+    color: #8d622e;
+    cursor: pointer;
+}
+.toggle {
+  font-family: arial, sans-serif;
+}
+.toggle .tabs {
+  width: 100%;
+  overflow: hidden;
+  height: 36px;
+  line-height: 36px;
+}
+.toggle .tabs .tab {
+  float: left;
+  background: white;
+  color: #777777;
+  height: 31px;
+  margin: 2px 8px 0;
+  padding: 0 8px;
+  cursor: pointer;
+}
+.toggle .tabs .tab.active {
+  color: #dd4b39;
+  border-bottom: 3px solid #dd4b39;
+}
+.toggle .panels .panel {
+  padding: 20px 10px;
+  display: none;
+}
+.toggle .panels .panel:first-child {
+  display: block;
+}
+section#four {
+    text-align: center;
+}
+
+.tabs {
+    max-width: 284px;
+    margin: 0 auto;
+}
+
+.row.space {
+    margin-bottom: 2px;
+}
+section#four .col-md-6 {
+    padding: 2px;
+}
+section#four img {
+    width: 100%;
+    border-radius: 8px;
+ }
+ section#four .col-md-5 {
+    padding: 2px;
+}
+section#four h3 {
+    margin-bottom: 30px;
+}
+.video__slide {
+    width: fit-content;
+    position: relative;
+    border: 1px solid #e7e7e7;
+    font-size: 0;
+    width: 48%;
+}
+.video {
+    position: relative;
+    background-color: #fff;
+}
+.video__thumbnail {
+    border-right: 1px solid #e7e7e7;
+    display: inline-block;
+    width: 55%;
+    position: relative;
+    max-width: 270px;
+    overflow-x: hidden;
+}
+.video__thumbnail img {
+    width: 100%;
+    object-fit: cover;
+}
+.video__thumbnail img {
+    width: 100%;
+    object-fit: cover;
+}
+.video__thumbnail .play {
+    width: 47px;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    cursor: pointer;
+}
+.video__details {
+    display: inline-block;
+    width: 45%;
+    padding: 15px 10px;
+    vertical-align: top;
+    overflow-x: hidden;
+}
+.video__details .video__title {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: left;
+    margin-bottom: 22px;
+}
+.video__details .video__title .title {
+    width: 100%;
+    word-wrap: break-word;
+}
+.video__details .video__description {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: left;
+    color: #757575;
+    height: 126px;
+}
+section#five h2 {
+    text-align: center;
+    margin: 50px 0px;
+}
+.video__details .video__title .title {
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 19px;
+    font-family: -webkit-pictograph;
+    font-weight: 600;
+}
+section#six img {
+    width: 60%;
+    border-radius: 50%;
+}
+section#six img {
+    width: 60%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.team__member__name p {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.team__member__name {
+    margin-top: 20px;
+}
+section#six h2 {
+    text-align: center;
+    margin: 70px 0px 40px;
+}
+section#six .col-lg-4 {
+    margin-bottom: 34px;
+ }
+ section#seven .col-lg-4 {
+    padding: 0;
+}
+ section#seven .card {
+    border-radius: 0px;
+    background: #fdf9f4;
+     text-align: center;
+    margin: 0 auto;
+    display: block;
+        padding: 25px 0px;
+}
+section#seven h2 {
+    text-align: center;
+    margin: 60px 0px 50px;
+}
+img.card-img-top {
+    width: 60px;
+}
+section#eight {
+    text-align: center;
+    margin: 70px auto 50px;
+}
+.toggleS {
+  font-family: arial, sans-serif;
+}
+.toggleS .tabs {
+  border-bottom: 1px solid grey;
+  width: 100%;
+  overflow: hidden;
+  height: 36px;
+  line-height: 36px;
+}
+.toggleS .tabs .tab {
+  float: left;
+  background: white;
+  color: #777777;
+  height: 31px;
+  margin: 2px 8px 0;
+  padding: 0 8px;
+  cursor: pointer;
+}
+.toggleS .tabs .tab.active {
+  color: #dd4b39;
+  border-bottom: 3px solid #dd4b39;
+}
+.toggleS .panels .panel {
+  padding: 20px 10px;
+  display: none;
+}
+.toggleS .panels .panel:first-child {
+  display: block;
+}
+.toggleS .tabs {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.inner-job-container {
+    float: left;
+}
+
+.job-details-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+button.view-job.button {
+    border-radius: 4px;
+    background-color: #fff;
+    color: #8d622e;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleX(1.0006);
+    height: 32px;
+    padding: 0 16px;
+    border: 1px solid #c3c3c3;
+    outline: 0;
+    outline-color: transparent;
+    cursor: pointer;
+}
+h3.job-title {
+    color: #000;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+span.detail-value {
+    color: #4e4e4e;
+    font-size: 16px;
+}
+section#eight h4 {
+    margin-bottom: 30px;
+}
+section#eight {
+    text-align: center;
+    margin: 70px auto 50px;
+    padding: 50px;
+    border: 1px solid #e1e1e1;
+}
+.btnnn {
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 7%;
+}
+.btnnn:after {
+    content: '';
+    background: url(https://schedul.in/wp-content/uploads/2021/04/New-Project-2.png);
+    display: block;
+    position: absolute;
+    width: 272px;
+    height: 12px;
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 31px;
+    display: none;
+        left: -40px;
+}
+.btnnn:hover:after {
+    display: block;
+}
+.clear{
+	clear: both;
+}
+.job-row.job-prototype.post {
+    margin-bottom: 27px;
+}
+.toggleS .tabs {
+    border-bottom: 1px solid white;
+}
+.toggleS .tabs {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: scroll;
+    height: 69px;
+}
+.menuLink.active {
+    color: #d13319;
+    border-bottom: 3px solid;
+}
+.menu__nav {
+    text-align: center;
+}
+section#four .col-md-5 img {
+    width: 75%;
+}
+
+@media only screen and (max-width: 786px) {
+.video__slide {
+    width: 43%;
+}
+.menu__nav li {
+    font-size: 18px;
+    margin: 0 7px;
+}
+}
+@media only screen and (max-width: 600px) {
+.menu__nav li {
+    font-size: 12px;
+    margin: 0 7px;
+}
+#second {
+    padding-top: 0px;
+}
+.menu__nav {
+    padding-bottom: 0px;
+    margin: 0;
+    padding: 0px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.video__slide {
+    width: 100%;
+}
+.toggleS .tabs .tab {
+    float: initial;
+}
+.toggleS .tabs {
+    overflow: scroll;
+    height: 92px;
+}
+}
